@@ -1,85 +1,21 @@
 import React from 'react';
 import './App.css';
+import Navigation from './components/Navigation';
+import Notification from './components/Notification';
+import Banner from './components/Banner';
+import Introduction from './components/Introduction';
+import BannerTwo from './components/BannerTwo';
+import HappyHour from './components/HappyHour';
 
 function App() {
   return (
     <div className="App">
-      <div id="grid-layout">
-      <header>
-		<div class="bar-tapp-wrapper">
-			<span class="header-logo"></span>
-			<span class="arepaBar_ConcertCafe">Arepa Bar + Concert Cafe</span>
-      </div>
-      </header>
-    </div>
-    <nav>
-    <ul class="nav-container">
-      <li class="container-content"><a href="#">Menu</a></li>
-      <li class="container-content"><a href="#">Order Online</a></li>
-      <li class="container-content"><a href="#">About Us</a></li>
-      <li class="container-content"><a href="#">Happy Hours</a></li>
-      <li class="container-content"><a href="#">Locations</a></li>
-      <li class="container-content"><a href="#">Live Music</a></li>
-      <li class="container-content"><a href="#">Contact</a></li>
-      </ul>
-  </nav>
-  <div id="social-media">
-	<ul class="social-media-wrapper">
-	<li class="fb">
-    <a href="#">
-      <img src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_86,h_86,al_c,usm_0.66_1.00_0.01/0fdef751204647a3bbd7eaa2827ed4f9.png
-	" alt="facebook logo" />
-    </a>
-  </li>
-	<li class="ig">
-    <a href="#">
-      <img src="https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_86,h_86,al_c,usm_0.66_1.00_0.01/01c3aff52f2a4dffa526d7a9843d46ea.png" alt="Instagram logo" />
-    </a>
-  </li>
-	</ul>
-</div>
-<section id="msg-wrapper">
-		<ul class="msg">
-			<li>Birdtown (Lakewood, OH) - Larchmere (Cleveland, OH) - Crocker Park (coming soon)</li>
-			<li>| Open daily at 11am |</li>
-			<li>No Reservations</li>
-		</ul>
-	</section>
-  <main>
-	<section class="section1">
-		<h2 class="section1-header">Nuestra Cultura Barroca</h2>
-		<p class="section1-para">When you walk into Barroco our family will ensure that your experience is amped to the max. Our eclectic and vibrant atmosphere will have you and your guests thinking you are in another world. Our award winning menu will have you bragging to your friends and begging for the next visit.</p>
-	</section>
-	<section class="hero-image-video">
-	<video autoplay muted loop class="myVideo" poster="https://static.wixstatic.com/media/cb2e86_a1af32d37aea4588a5a9c2ae8430c5d3f000.jpg/v1/fill/w_720,h_383,al_c,q_80,usm_0.33_1.00_0.00/cb2e86_a1af32d37aea4588a5a9c2ae8430c5d3f000.jpg"><source src="https://video.wixstatic.com/video/cb2e86_a1af32d37aea4588a5a9c2ae8430c5d3/480p/mp4/file.mp4" /></video>
-	<img class="barroco-size" src="https://static.wixstatic.com/media/cb2e86_fd0bc32b806a49a396492eed7e36cd24~mv2.png/v1/fill/w_1200,h_542,al_c,usm_0.66_1.00_0.01/cb2e86_fd0bc32b806a49a396492eed7e36cd24~mv2.png" alt="" />		
-		</section>
-	<section>
-		<ul class="specials">
-			<li>
-				<h3 class="hh_heading1">Happy Hours</h3>
-					<ul class="hh_menu1">
-						<li>MONDAYS - $5 MOJITOS</li>
-						<li>TUESDAYS - $5 SANGRIAS,  1/2 PRICED WINE BOTTLES</li>
-						<li>WEDNESDAYS - $5 MARGARITAS</li>
-						<li>THURSDAYS - $5 PIÑA COLADAS</li>
-					</ul>
-			</li>
-		</ul>
-			<div class="fancy_drink"></div>
-		</section>
-		<section>
-			<div class="fancy_drink2">			
-					</div>
-				<ul class="hh_menu2">
-					<h4>MON-FRI 3PM-6PM</h4>
-					<li>$5 COCKTAILS</li>
-					<li>$4 DRAFTS</li>
-					<li>1/2 PRICED APPETIZERS</li>
-					<li>20% OFF LARGE GROUP APPETIZERS</li>
-			<li>Our cocktails are all handmade, with mixes and fresh juices made in house.</li>
-			</ul>
-</section>
+      <Navigation />
+      <Notification />
+      <Banner />
+      <Introduction />
+      <BannerTwo />
+      <HappyHour />
 	<section class="loc-wrapper">
 		<h2 class="location-heading">LOCATIONS</h2>
 		<ul class="locations-container">
@@ -115,7 +51,6 @@ function App() {
 				</ul>
 			<img src="https://static.wixstatic.com/media/cb2e86_0254f683ccd24e898459a0ad6a1766f6~mv2_d_2048_1356_s_2.jpg/v1/fill/w_2048,h_1169,al_c,q_90/cb2e86_0254f683ccd24e898459a0ad6a1766f6~mv2_d_2048_1356_s_2.jpg" />
 </section>
-</main>
 <footer class="footer-wrapper">
 	<ul class="footer-content">
 		<li>
