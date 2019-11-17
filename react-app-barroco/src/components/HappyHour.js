@@ -3,16 +3,13 @@ import React from 'react';
 
 const HappyHour = () => {
     return (
-        <div style={{
-            position: 'relative',
-            top: '-22px',
+        <div className="d-flex justify-content-around" style={{
             padding: '1em',
-            height: '300px',
+            height: '500px',
             width: '100%',
             backgroundColor: 'rgb(222,80,33)'
         }}>
-        <section>
-		<ul >
+		<ul>
 			<li>
 				<h3 class="hh_heading1">Happy Hours</h3>
 					<ul class="hh_menu1">
@@ -23,8 +20,7 @@ const HappyHour = () => {
 					</ul>
 			</li>
 		</ul>
-		<div class="fancy_drink"></div>
-		</section>
+			<div class="fancy_drink"></div>
         </div>
     )
 }
