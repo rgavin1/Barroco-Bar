@@ -99,18 +99,6 @@ h1, h2 {
 	font-family: Playfair;
 	font-size: 25px;
 }
-
-.cir {
-		border-radius: 90%;
-	}
-
-	
-/* --------- Live Music Promo ----------- */
-.live-music {
-	text-align: center;
-	height: 800px;
-	width: 100%;
-}
 	
 		
 /* -------------- Footer -------------- */
@@ -149,23 +137,6 @@ font-family: Playfair;
 	padding-bottom: 1em;
 	}
 	
-/* ---------- Barroco Logo ---------------*/
-
-.header-logo {
-	display: flex;
-	height: 200px;
-	width: 400px;
-	background-image: url(https://static.wixstatic.com/media/cb2e86_fd0bc32b806a49a396492eed7e36cd24~mv2.png/v1/fill/w_1200,h_542,al_c,usm_0.66_1.00_0.01/cb2e86_fd0bc32b806a49a396492eed7e36cd24~mv2.png);
-	background-size: 100%;
-	background-repeat: no-repeat;	
-	}
-	
-	
-/* -------------- Social Media -------------- */
-	#social-media {
-		height: 200px;
-		width: 140px;
-	}
 
 	/* Section */
 .section1 {
@@ -175,14 +146,6 @@ font-family: Playfair;
 	padding-bottom: 3em;
 }
 	
-/*	--------- Specials ---------- */
-	
-.specials {
-	padding: 1em;
-	height: 300px;
-	width: 100%;
-	background-color: rgb(222,80,33);
-} 
 
 .hh_heading1 {
 	color: white;
@@ -212,13 +175,6 @@ font-family: Playfair;
 	text-align: center;
 	padding: 1em;
 }
-
-/* ------------ Locations --------------- */
-	
-	.loc-wrapper {
-		margin: 0em;
-		padding: 1em;
-	}
 	
 .location-heading {
 	text-align: center;
@@ -238,15 +194,7 @@ font-family: Playfair;
 .heading1 {
 	font-family: Playfair;
 	font-size: 32px;
-}
-	
-/* --------- Live Music Promo ----------- */
-.live-music {
-	text-align: center;
-	height: 800px;
-	width: 100%;
-}
-	
+}	
 		
 /* -------------- Footer -------------- */
 .visit-us {
@@ -264,6 +212,5 @@ font-family: Playfair;
 font-family: Playfair;
 	font-size: 48px;
 }
-
 
 }

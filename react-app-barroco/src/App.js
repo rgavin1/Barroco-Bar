@@ -7,6 +7,7 @@ import Introduction from './components/Introduction';
 import BannerTwo from './components/BannerTwo';
 import HappyHourContainer from './components/HappyHourContainer';
 import Locations from './components/Locations';
+import LiveMusic from './components/Music';
 
 function App() {
   return (
@@ -17,16 +18,8 @@ function App() {
       <Introduction />
       <BannerTwo />
       <HappyHourContainer />
+	  <LiveMusic />
 	  <Locations />
-	<section class="live-music">
-			<h2>LIVE MUSIC</h2>
-				<ul>
-					<li>Lakewood: EVERY TUESDAY &  SATURDAY at 7pm</li>
-					<li>Larchmere: EVERY MONDAY & FRIDAY at 7pm</li>
-					<li>Crocker Park: COMING SOON</li>
-				</ul>
-			<img src="https://static.wixstatic.com/media/cb2e86_0254f683ccd24e898459a0ad6a1766f6~mv2_d_2048_1356_s_2.jpg/v1/fill/w_2048,h_1169,al_c,q_90/cb2e86_0254f683ccd24e898459a0ad6a1766f6~mv2_d_2048_1356_s_2.jpg" />
-</section>
 <footer class="footer-wrapper">
 	<ul class="footer-content">
 		<li>

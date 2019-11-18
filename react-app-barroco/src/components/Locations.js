@@ -61,11 +61,11 @@ const CrockerPark = () => {
 const Locations = () => {
     return (
         <Container fluid>
-        <h2 className="location-heading text-center py-3">LOCATIONS</h2>
+        <h2 className="location-heading text-center py-5">LOCATIONS</h2>
         <Container className="d-flex flex-wrap justify-content-around">
             <BirdTown className="my-2" />
-            <Larchmere className="my-2" />
             <CrockerPark className="my-2" />
+            <Larchmere className="my-2" />
         </Container>
         </Container>
     )
