@@ -6,6 +6,7 @@ import Banner from './components/Banner';
 import Introduction from './components/Introduction';
 import BannerTwo from './components/BannerTwo';
 import HappyHourContainer from './components/HappyHourContainer';
+import Locations from './components/Locations';
 
 function App() {
   return (
@@ -16,32 +17,7 @@ function App() {
       <Introduction />
       <BannerTwo />
       <HappyHourContainer />
-	<section class="loc-wrapper">
-		<h2 class="location-heading">LOCATIONS</h2>
-		<ul class="locations-container">
-			<li class="cir">
-				<h3><span class="heading1">Barroco</span> in Birdtown</h3>
-				<p>12906 MADISON AVE<br/>
-				LAKEWOOD, OH 44107<br/>
-				216-221-8127</p>
-			<img class="cir" src="https://static.wixstatic.com/media/cb2e86_366d631e05ff463bacb0e51c866eb3cf~mv2.jpg/v1/fill/w_757,h_606,al_l,q_85/cb2e86_366d631e05ff463bacb0e51c866eb3cf~mv2.jpg" />
-			</li>
-			<li class="cir">
-				<h3><span class="heading1">Barroco</span> in Larchmere</h3>
-				<p>12718 LARCHMERE BLVD<br/>
-				CLEVELAND, OH 44120<br/>
-				216-938-9301</p>
-				<img class="cir" src="https://static.wixstatic.com/media/cb2e86_de7a586781164a2fb05e923c0f3da2b0~mv2.jpg/v1/fill/w_976,h_778,al_c,q_85,usm_0.66_1.00_0.01/cb2e86_de7a586781164a2fb05e923c0f3da2b0~mv2.jpg" />
-			</li>
-			<li>
-				<h3><span class="heading1">Barroco</span> in Crocker Park (coming soon)</h3>
-				<p>287 CROCKER PARK BLVD<br/>
-				WESTLAKE, OH 44145<br/>
-				COMING SOON</p>
-				<img class="cir" src="https://static.wixstatic.com/media/cb2e86_4a123699e56142f9a271e2118987f9a9~mv2_d_4032_3024_s_4_2.jpg/v1/fill/w_976,h_778,al_c,q_85,usm_0.66_1.00_0.01/cb2e86_4a123699e56142f9a271e2118987f9a9~mv2_d_4032_3024_s_4_2.jpg" />
-			</li>
-		</ul>
-	</section>
+	  <Locations />
 	<section class="live-music">
 			<h2>LIVE MUSIC</h2>
 				<ul>
