@@ -76,11 +76,6 @@ h1, h2 {
 
 /* ------------ Locations --------------- */
 	
-	.loc-wrapper {
-		margin: 0em;
-		padding: 1em;
-	}
-	
 .location-heading {
 	text-align: center;
 	font-size: 48px;
@@ -101,11 +96,6 @@ h1, h2 {
 }
 	
 		
-/* -------------- Footer -------------- */
-.visit-us {
-	display: flex;
-	justify-items: center;
-}
 
 .footer-wrapper {
 		background-color: rgb(232,232,232);
@@ -195,12 +185,6 @@ font-family: Playfair;
 	font-family: Playfair;
 	font-size: 32px;
 }	
-		
-/* -------------- Footer -------------- */
-.visit-us {
-	display: flex;
-	justify-items: center;
-}
 
 .footer-wrapper {
 		background-color: rgb(232,232,232);
