@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import HappyHrImageOne from '../assets/happyhourImg1.jpg';
+import HappyHrImageTwo from '../assets/happyhourImg2.jpg';
 
 
 const HappyHourMenuOne = () => {
@@ -20,7 +21,7 @@ const HappyHourMenuOne = () => {
 			<li>WEDNESDAYS - $5 MARGARITAS</li>
 			<li>THURSDAYS - $5 PIÑA COLADAS</li>
 		</ul>
-	</Container>
+		</Container>
 		<div style={{
 			backgroundImage: `url(${HappyHrImageOne})`,
 			width: '100%',
@@ -34,8 +35,7 @@ const HappyHourMenuOne = () => {
 
 const HappyHourMenuTwo = () => {
 	return (
-		<div><div class="fancy_drink2"></div>
-		<ul class="hh_menu2">
+		<ul className="hh_menu2">
 			<h4>MON-FRI 3PM-6PM</h4>
 			<li>$5 COCKTAILS</li>
 			<li>$4 DRAFTS</li>
@@ -43,7 +43,6 @@ const HappyHourMenuTwo = () => {
 			<li>20% OFF LARGE GROUP APPETIZERS</li>
 			<li>Our cocktails are all handmade, with mixes and fresh juices made in house.</li>
 		</ul>
-		</div>
 	);
 }
 

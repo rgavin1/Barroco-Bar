@@ -17,16 +17,6 @@ a {
 	
 }
 
-.bar-tapp-wrapper {
-	background-image: url(https://i.postimg.cc/ryjqFfHC/alcohol-ale-bar-159291.jpg);
-	height: 350px;
-	max-width: 100%;
-	background-attachment: fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin: 0;
-	padding: 0;
-}
 
 h1, h2 {
 	font-family: 'Playfair Display', serif;
@@ -82,12 +72,6 @@ h1, h2 {
 	margin: 0;
 	text-align: center;
 	padding: 1em;
-}
-
-.fancy_drink2 {
-	background-image: url(https://static.wixstatic.com/media/cb2e86_ea40f649a58b483a90419cfe7a5b721b~mv2.jpg/v1/fill/w_487,h_365,al_c,q_80,usm_0.66_1.00_0.01/cb2e86_ea40f649a58b483a90419cfe7a5b721b~mv2.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
 }
 
 /* ------------ Locations --------------- */
@@ -215,14 +199,6 @@ font-family: Playfair;
 	margin-bottom: 1em;
 	padding: 0em 1em 1em 1em;
 }
-	
-	.fancy_drink {
-	background-image: url(https://static.wixstatic.com/media/cb2e86_8db52b129a4c439f84c95985864b0a28~mv2.jpg/v1/fill/w_894,h_960,al_c,q_85/cb2e86_8db52b129a4c439f84c95985864b0a28~mv2.jpg);
-		height: 400px;
-		width: 100%;
-		background-size: cover;
-		background-repeat: no-repeat;
-}
 
 .hh_menu2 {
 	font-family: Nunito;
@@ -235,14 +211,6 @@ font-family: Playfair;
 	margin: 0;
 	text-align: center;
 	padding: 1em;
-}
-
-.fancy_drink2 {
-	background-image: url(https://static.wixstatic.com/media/cb2e86_ea40f649a58b483a90419cfe7a5b721b~mv2.jpg/v1/fill/w_487,h_365,al_c,q_80,usm_0.66_1.00_0.01/cb2e86_ea40f649a58b483a90419cfe7a5b721b~mv2.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 400px;
-	width: 100%;
 }
 
 /* ------------ Locations --------------- */
