@@ -5,7 +5,7 @@ import Notification from './components/Notification';
 import Banner from './components/Banner';
 import Introduction from './components/Introduction';
 import BannerTwo from './components/BannerTwo';
-import HappyHour from './components/HappyHour';
+import HappyHourContainer from './components/HappyHourContainer';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <Banner />
       <Introduction />
       <BannerTwo />
-      <HappyHour />
+      <HappyHourContainer />
 	<section class="loc-wrapper">
 		<h2 class="location-heading">LOCATIONS</h2>
 		<ul class="locations-container">

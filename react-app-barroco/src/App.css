@@ -28,20 +28,6 @@ a {
 	padding: 0;
 }
 
-
-/* ----------- AREPA BAR + CONCERT CAFE ------------ */
-span.arepaBar_ConcertCafe {
-	display: flex;
-	color: white;
-	font-weight: 900;
-	text-transform: uppercase;
-	position: relative;
-	top: 22%;
-	left: 35%;
-	padding-left: 0em;
-	margin: 1em;
-}
-
 h1, h2 {
 	font-family: 'Playfair Display', serif;
 }
@@ -51,9 +37,6 @@ h1, h2 {
 /* ------------ Full Screen ------------- */
 @media screen and (min-width: 761px) {
 	ul.nav-container {
-	display: grid;
-	grid-template-columns: repeat(8, 1fr);
-	grid-column-gap: .03em;
 	margin: 0;
 	font-size: 17px;
 	padding: 1em;
@@ -65,19 +48,11 @@ h1, h2 {
 		margin: auto;
 	}
 	
-/* ---------- Barroco Logo ---------------*/
-
-
-	
 /*	--------- Specials ---------- */
 	
 .specials {
-	position: relative;
-	top: -22px;
-	display: grid;
-	grid-template-columns: 1fr;
-	padding: 1em;
-	height: 300px;
+	min-height: 300px;
+	max-height: auto;
 	width: 100%;
 	background-color: rgb(222,80,33);
 } 
@@ -95,16 +70,6 @@ h1, h2 {
 	line-height: 1.70em;
 	text-align: center;
 }
-	
-	.fancy_drink {
-		position: relative;
-		top: -38px;
-	background-image: url(https://static.wixstatic.com/media/cb2e86_8db52b129a4c439f84c95985864b0a28~mv2.jpg/v1/fill/w_894,h_960,al_c,q_85/cb2e86_8db52b129a4c439f84c95985864b0a28~mv2.jpg);
-		height: 400px;
-		width: 100%;
-		background-size: cover;
-		background-repeat: no-repeat;
-}
 
 .hh_menu2 {
 	font-family: Nunito;
@@ -112,8 +77,6 @@ h1, h2 {
 	line-height: 1.70em;
 	height: 240px;
 	width: 100%;
-	position: relative;
-	top: -438px;
 	background-color: rgba(139, 1, 0, .8);
 	padding-bottom: 2em;
 	margin: 0;
@@ -125,17 +88,11 @@ h1, h2 {
 	background-image: url(https://static.wixstatic.com/media/cb2e86_ea40f649a58b483a90419cfe7a5b721b~mv2.jpg/v1/fill/w_487,h_365,al_c,q_80,usm_0.66_1.00_0.01/cb2e86_ea40f649a58b483a90419cfe7a5b721b~mv2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 400px;
-	width: 100%;
-	position: relative;
-	top: 202px;
 }
 
 /* ------------ Locations --------------- */
 	
 	.loc-wrapper {
-		position: relative;
-		top: -38px;
 		margin: 0em;
 		padding: 1em;
 	}
@@ -152,9 +109,6 @@ h1, h2 {
 	min-height: 100%;
 	min-width: 100%;
 	text-align: center;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-column-gap: 2em;
 }
 
 .heading1 {
@@ -169,8 +123,6 @@ h1, h2 {
 	
 /* --------- Live Music Promo ----------- */
 .live-music {
-	position: relative;
-	top: 0px;
 	text-align: center;
 	height: 800px;
 	width: 100%;
@@ -184,17 +136,10 @@ h1, h2 {
 }
 
 .footer-wrapper {
-		position: relative;
 		background-color: rgb(232,232,232);
-		top: -250px;
 		margin: auto;
 		padding-top: 3em;
 	}
-
-.footer-content {
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-}
 
 .barroco {
 font-family: Playfair;
@@ -202,38 +147,7 @@ font-family: Playfair;
 }
 	
 	
-/* ---- Full Screen Grid Layout  ------ */
-#grid-layout {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-areas:
-		"nav nav"
-		"update update"
-		"header header"
-		"main main"
-		"section section"
-		"footer footer";
-}
-	
-	header {
-	grid-area: header;
-}
 
-nav { 
-	grid-area: nav;
-}
-
-section {
-	grid-area: section;
-}
-
-main {
-	grid-area: main;
-}
-
-footer {
-	grid-area: footer;
-}
 }
 
 
@@ -242,9 +156,6 @@ footer {
 /* -----------------Media Query---------------- */
 @media screen and (max-width: 760px) {
 	ul.nav-container {
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-row-gap: 1em;
 	font-weight: bold;
 	background-color: rgb(232,232,232);
 	margin: 0;
@@ -258,9 +169,6 @@ footer {
 
 .header-logo {
 	display: flex;
-	position: relative;
-	top: 28%;
-	left: 23%;
 	height: 200px;
 	width: 400px;
 	background-image: url(https://static.wixstatic.com/media/cb2e86_fd0bc32b806a49a396492eed7e36cd24~mv2.png/v1/fill/w_1200,h_542,al_c,usm_0.66_1.00_0.01/cb2e86_fd0bc32b806a49a396492eed7e36cd24~mv2.png);
@@ -268,37 +176,11 @@ footer {
 	background-repeat: no-repeat;	
 	}
 	
-/* --------- Orange Notification Message ---------- */
-#msg-wrapper {
-		grid-area: update;
-		background-color: orange;
-		opacity: .7;
-	}
-	
-.msg {
-	display: grid;
-	grid-template-columns: 7fr 1.3fr 1.7fr;
-	margin: auto;
-	padding: 1em 0em 0em 0em;
-	height: 4em;
-	font-weight: bolder;
-	font-size: .76em;
-	text-align: center;
-}	
 	
 /* -------------- Social Media -------------- */
 	#social-media {
-		position: absolute;
-		top: 0px;
-		right: 50px;
 		height: 200px;
 		width: 140px;
-	}
-
-	.social-media-wrapper {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-column-gap: 2em;
 	}
 
 	/* Section */
@@ -312,10 +194,6 @@ footer {
 /*	--------- Specials ---------- */
 	
 .specials {
-	position: relative;
-	top: -22px;
-	display: grid;
-	grid-template-columns: 1fr;
 	padding: 1em;
 	height: 300px;
 	width: 100%;
@@ -333,16 +211,12 @@ footer {
 	font-family: Nunito;
 	font-weight: bolder;
 	line-height: 1.70em;
-	display: grid;
-	grid-template-columns: 1fr;
 	text-align: center;
 	margin-bottom: 1em;
 	padding: 0em 1em 1em 1em;
 }
 	
 	.fancy_drink {
-		position: relative;
-		top: -38px;
 	background-image: url(https://static.wixstatic.com/media/cb2e86_8db52b129a4c439f84c95985864b0a28~mv2.jpg/v1/fill/w_894,h_960,al_c,q_85/cb2e86_8db52b129a4c439f84c95985864b0a28~mv2.jpg);
 		height: 400px;
 		width: 100%;
@@ -356,8 +230,6 @@ footer {
 	line-height: 1.70em;
 	height: 240px;
 	width: 100%;
-	position: relative;
-	top: -438px;
 	background-color: rgba(139, 1, 0, .8);
 	padding-bottom: 2em;
 	margin: 0;
@@ -371,15 +243,11 @@ footer {
 	background-repeat: no-repeat;
 	height: 400px;
 	width: 100%;
-	position: relative;
-	top: 202px;
 }
 
 /* ------------ Locations --------------- */
 	
 	.loc-wrapper {
-		position: relative;
-		top: -38px;
 		margin: 0em;
 		padding: 1em;
 	}
@@ -396,8 +264,6 @@ footer {
 	min-height: 100%;
 	min-width: 100%;
 	text-align: center;
-	display: grid;
-	grid-template-columns: 1fr;
 	background-color: rgba(214,152,105, 0.7);
 }
 
@@ -408,8 +274,6 @@ footer {
 	
 /* --------- Live Music Promo ----------- */
 .live-music {
-	position: relative;
-	top: 0px;
 	text-align: center;
 	height: 800px;
 	width: 100%;
@@ -423,53 +287,15 @@ footer {
 }
 
 .footer-wrapper {
-		position: relative;
 		background-color: rgb(232,232,232);
-		top: -250px;
 		margin: auto;
 		padding-top: 3em;
 	}
-
-.footer-content {
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-}
 
 .barroco {
 font-family: Playfair;
 	font-size: 48px;
 }
-	
-	/* RWD Grid Layout */
-#grid-layout {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-areas:
-		"header header"
-		"update update"
-		"nav nav"
-		"main main"
-		"section section"
-		"footer footer";
-}
 
-		header {
-	grid-area: header;
-}
 
-nav { 
-	grid-area: nav;
-}
-
-section {
-	grid-area: section;
-}
-
-main {
-	grid-area: main;
-}
-
-footer {
-	grid-area: footer;
-}
 }
